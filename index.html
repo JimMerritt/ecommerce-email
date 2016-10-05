@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Simple Transactional Email</title>
-    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="stylesheet" type="text/css" href="base-style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body class="">
     <table border="0" cellpadding="0" cellspacing="0" class="body">
@@ -12,45 +13,183 @@
         <td>&nbsp;</td>
         <td class="container">
           <div class="content">
-
             <!-- START CENTERED WHITE CONTAINER -->
             <span class="preheader">This is preheader text. Some clients will show this text as a preview.</span>
             <table class="main">
-
               <!-- START MAIN CONTENT AREA -->
               <tr>
                 <td class="wrapper">
                   <table border="0" cellpadding="0" cellspacing="0">
                     <tr>
                       <td>
-                        <p>Hi there,</p>
-                        <p>Sometimes you just want to send a simple HTML email with a simple design and clear call to action. This is it.</p>
-                        <table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
-                          <tbody>
-                            <tr>
-                              <td align="left">
-                                <table border="0" cellpadding="0" cellspacing="0">
-                                  <tbody>
-                                    <tr>
-                                      <td> <a href="http://htmlemail.io" target="_blank">Call To Action</a> </td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                        <p>This is a really simple email template. Its sole purpose is to get the recipient to click the button with no distractions.</p>
-                        <p>Good luck! Hope it works.</p>
+                        <h1>Let's Build Some Tabs!</h1>
+                        <p class="center">I'm going to wrap these in a div, but 'cause only because I'm testing stuff</p>
+                        <div>
+                          <input type="radio" name="tab-selector" id="tab1" checked>
+                          <input type="radio" name="tab-selector" id="tab2">
+                          <input type="radio" name="tab-selector" id="tab3">
+                          <input type="radio" name="tab-selector" id="tab4">
+                          <label class="tab-labels" for="tab1">Tab 1</label>
+                          <label class="tab-labels" for="tab2">Tab 2</label>
+                          <label class="tab-labels" for="tab3">Tab 3</label>
+                          <label class="tab-labels" for="tab4">Tab 4</label>
+                          <div class="tab tab1">Pharetra Purus Sit Sollicitudin Egestas</div>
+                          <div class="tab tab2">Sollicitudin Nibh Elit Cursus Fermentum</div>
+                          <div class="tab tab3">Adipiscing Ullamcorper Elit Ultricies Cursus</div>
+                          <div class="tab tab4">Vestibulum Venenatis Euismod Commodo Malesuada</div>
+                        </div>
                       </td>
                     </tr>
+
+                    <tr>
+                      <td height="30"></td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <h2 class="center">Let's build two small galleries that have small images.</h2>
+                        <table border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td>
+                              <div class="half-width">
+                                <input type="radio" name="gallery-one-selector" id="gallery1tab1" checked>
+                                <input type="radio" name="gallery-one-selector" id="gallery1tab2">
+                                <input type="radio" name="gallery-one-selector" id="gallery1tab3">
+                                <label class="gallery-labels" for="gallery1tab1">Image 1</label>
+                                <label class="gallery-labels" for="gallery1tab2">Image 2</label>
+                                <label class="gallery-labels" for="gallery1tab3">Image 3</label>
+                                <img class="gallery-image gallery1image1" src="assets/gallery1-01.jpg" width="290" height="163">
+                                <img class="gallery-image gallery1image2" src="assets/gallery1-02.jpg" width="290" height="163">
+                                <img class="gallery-image gallery1image3" src="assets/gallery1-03.jpg" width="290" height="163">
+                              </div>
+                            </td>
+                            <td>
+                              <div class="half-width">
+                                <input type="radio" name="gallery-two-selector" id="gallery2tab1" checked>
+                                <input type="radio" name="gallery-two-selector" id="gallery2tab2">
+                                <input type="radio" name="gallery-two-selector" id="gallery2tab3">
+                                <label class="gallery-labels" for="gallery2tab1">Image 1</label>
+                                <label class="gallery-labels" for="gallery2tab2">Image 2</label>
+                                <label class="gallery-labels" for="gallery2tab3">Image 3</label>
+                                <img class="gallery-image gallery2image1" src="assets/gallery2-01.jpg" width="290" height="163">
+                                <img class="gallery-image gallery2image2" src="assets/gallery2-02.jpg" width="290" height="163">
+                                <img class="gallery-image gallery2image3" src="assets/gallery2-03.jpg" width="290" height="163">
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td height="30"></td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <h2 class="center">Can I do this, but with the tabs below the images?</h2>
+                        <table border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td>
+                              <div class="half-width">
+                                <input type="radio" name="gallery-three-selector" id="gallery3tab1" checked>
+                                <input type="radio" name="gallery-three-selector" id="gallery3tab2">
+                                <input type="radio" name="gallery-three-selector" id="gallery3tab3">
+                                <img class="gallery-image gallery3image1" src="assets/gallery1-03.jpg" width="290" height="163">
+                                <img class="gallery-image gallery3image2" src="assets/gallery1-01.jpg" width="290" height="163">
+                                <img class="gallery-image gallery3image3" src="assets/gallery1-02.jpg" width="290" height="163">
+                                <label class="gallery-labels" for="gallery3tab1">Image 1</label>
+                                <label class="gallery-labels" for="gallery3tab2">Image 2</label>
+                                <label class="gallery-labels" for="gallery3tab3">Image 3</label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="half-width">
+                                <p style="margin: 10px 20px;">Well that was actually easier than I thought. It looks like the placement of the input elements are important, but the placement of the label elements is arbitrary. So, with the preceding element selector (~), you can target the images by having the inputs first in the div.</p>
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td height="30"></td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <h2 class="center">What if the tabs are in a different block?</h2>
+                        <table border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td>
+                              <div class="half-width">
+                                <input type="radio" name="gallery-four-selector" id="gallery4tab1" checked>
+                                <input type="radio" name="gallery-four-selector" id="gallery4tab2">
+                                <input type="radio" name="gallery-four-selector" id="gallery4tab3">
+                                <img class="gallery-image gallery4image1" src="assets/gallery2-03.jpg" width="290" height="163">
+                                <img class="gallery-image gallery4image2" src="assets/gallery2-01.jpg" width="290" height="163">
+                                <img class="gallery-image gallery4image3" src="assets/gallery2-02.jpg" width="290" height="163">
+                              </div>
+                            </td>
+                            <td>
+                              <div class="half-width">
+                                <label class="gallery-labels" for="gallery4tab1">Image 1</label>
+                                <label class="gallery-labels" for="gallery4tab2">Image 2</label>
+                                <label class="gallery-labels" for="gallery4tab3">Image 3</label>
+                                <p class="gallery-text gallery4text1">I'm in a different div! Image 1, woot woot!</p>
+                                <p class="gallery-text gallery4text1">Image 2, oooohhhh yeah! Different div? No problem.</p>
+                                <p class="gallery-text gallery4text1">Different div! Everyday I'm pixel'n!</p>
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td height="30"></td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <h2 class="center">Taking it all outside the div didn't work.</h2>
+                        <table border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td>
+                              <div class="half-width">
+                                <input type="radio" name="gallery-five-selector" id="gallery5tab1" checked>
+                                <input type="radio" name="gallery-five-selector" id="gallery5tab2">
+                                <input type="radio" name="gallery-five-selector" id="gallery5tab3">
+                                <label class="gallery-labels" for="gallery5tab1">Image 1</label>
+                                <label class="gallery-labels" for="gallery5tab2">Image 2</label>
+                                <label class="gallery-labels" for="gallery5tab3">Image 3</label>
+                                <span class="clearfix"></span>
+                                <p class="gallery-text gallery5text1"><strong>Wish I could say:</strong> I'm in a different div! Image 1, woot woot!</p>
+                                <p class="gallery-text gallery5text2"><strong>Wish I could say:</strong> Image 2, oooohhhh yeah! Different div? No problem.</p>
+                                <p class="gallery-text gallery5text3"><strong>Wish I could say:</strong> Different div! Everyday I'm pixel'n!</p>
+                                <div>
+                                  <img class="gallery-image gallery5image1" src="assets/gallery1-02.jpg" width="290" height="163" data-gallery="51">
+                                  <img class="gallery-image gallery5image2" src="assets/gallery1-03.jpg" width="290" height="163" data-gallery="52">
+                                  <img class="gallery-image gallery5image3" src="assets/gallery1-01.jpg" width="290" height="163" data-gallery="53">
+                                </div>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="half-width">
+                                <p style="margin: 10px 20px;">Unable to find a way to reference in different &#60;td&#62;'s. Unable to put inputs outside and reference for interaction. Not sure what causes the break in interaction.</p>
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+
                   </table>
                 </td>
               </tr>
-
               <!-- END MAIN CONTENT AREA -->
               </table>
-
             <!-- START FOOTER -->
             <div class="footer">
               <table border="0" cellpadding="0" cellspacing="0">
